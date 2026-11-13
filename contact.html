@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="vb-banner" role="note"><span>Voorbeeldontwerp, speciaal voor Juwelier Lambregts gemaakt door Cafe Boon</span><a href="https://cafeboon.com">Meer weten</a></div>
 <header class="top">
 <a class="brand" href="index.html"><img alt="Th. Lambregts b.v. Juweliers" src="images/logo.jpg"/></a>
 <nav><a href="index.html">Home</a><a href="aanbod.html">Collectie</a><a aria-current="page" href="contact.html">Contact</a></nav>
@@ -46,6 +47,8 @@
 <p><a href="https://www.facebook.com/p/Juwelier-lambregts-100057915024747/">Juwelier Lambregts op Facebook</a></p>
 </div>
 </section>
+<section class="sn-formsec" id="formulier"><div class="sn-formwrap"><h2>Stuur ons een bericht</h2><p class="sn-lead">Heeft u een vraag of een wens? Laat een bericht achter.</p><form class="sn-form" id="sn-form"><div class="sn-field"><label for="naam">Naam</label><input id="naam" name="naam" type="text" required autocomplete="name"></div><div class="sn-field"><label for="tel">Telefoonnummer (optioneel)</label><input id="tel" name="tel" type="tel" autocomplete="tel"></div><div class="sn-field full"><label for="email">E-mailadres</label><input id="email" name="email" type="email" required autocomplete="email"></div><div class="sn-field full"><label for="keuze">Waar gaat uw vraag over?</label><select id="keuze" name="keuze" required><option value="">Maak een keuze</option><option>Ringen</option><option>Trouwringen</option><option>Verlovingsringen</option><option>Armbanden</option><option>Colliers</option><option>Oorsieraden</option><option>Horloges</option><option>Horlogereparatie</option><option>Herdenkingssieraden</option></select></div><div class="sn-field full"><label for="opm">Uw bericht</label><textarea id="opm" name="opm" rows="5" required></textarea></div><div class="sn-field full"><button class="btn" type="submit">Bericht versturen</button></div></form></div></section>
+<script>(function(){var f=document.getElementById('sn-form');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();if(!f.checkValidity()){f.reportValidity();return;}var d=document.createElement('div');d.className='sn-done';d.setAttribute('role','status');d.tabIndex=-1;d.innerHTML='<h2>Bedankt voor uw bericht</h2><p>Dit is een voorbeeldwebsite van Cafe Boon. Uw bericht is daarom niet verstuurd. Neem voor een echt antwoord contact op via <a href="tel:+31765012896">076 - 501 28 96</a>.</p>';f.parentNode.replaceChild(d,f);d.focus();});})();</script>
 <footer>
 <p>Juwelier Lambregts, Markt 38, Etten-Leur</p>
 <p class="credit"><a href="https://cafeboon.com">Voorbeeldontwerp door Cafe Boon</a></p>
